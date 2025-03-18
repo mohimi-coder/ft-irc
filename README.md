@@ -51,9 +51,22 @@ Below is a diagram illustrating how I structured the project, with a focus on ob
     
     3️⃣Handling Multiple Clients – Each connected client is managed using separate sockets, enabling multiple users to interact with the server simultaneously.
     
-This structure ensures smooth and concurrent communication between users within the IRC network.
 
+## ⁴⁰⁴Parsing the Input
+    Once the server manages socket connections, the next step is processing incoming commands and directing them to the appropriate service. 
+    This typically involves basic conditional checks (e.g., if-else statements) to identify and execute commands correctly.
 
+## Authentication Handling
+
+    This stage is also where you might implement a global authentication wall, ensuring that only registered users can access certain commands. 
+    A simple three-tier authentication system is commonly used:
+
+## ❶ UNAUTHENTICATED 
+    – The client has connected but has not provided valid credentials.
+## ❷ AUTHENTICATED 
+    – The client has passed basic authentication but is not yet fully registered.
+## ❸ REGISTERED 
+    – The client is fully verified and can access all permitted commands.
 
 
 
