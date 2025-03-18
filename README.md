@@ -1,4 +1,9 @@
-# ft-irc
+<h1 align="center">ft-irc_42_1337 </h1>
+<p align="center">
+  <a href="https://github.com/mohimi-coder/ft-irc">
+    <img src="https://raw.githubusercontent.com/mohimi-coder/1337_badges/refs/heads/master/ft_ircm.png" alt="42 Badge">
+  </a>
+</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=180&text=Hi,%20welcome%20to%20our%20FT-IRC!&fontSize=24&fontAlignY=32&animation=twinkling" alt="header" width="100%" />
 <samp>
@@ -8,7 +13,7 @@ The project is built using a Makefile and can be executed with the following com
 
 ``./ircserv [port] [pass]`` 
 
-## ft_irc Project Overview
+## <img src="https://github.com/markveligod/ft_irc/blob/main/img/chat.gif" width="32" height="32" > Description
 
 ft_irc is a project you may encounter during your coursework. If you're reading this, chances are you're working on it now. This project involves developing an IRC (Internet Relay Chat) server, providing a great opportunity to deepen your understanding of bi-directional file descriptor communication (also known as sockets).
 
@@ -19,6 +24,11 @@ While the project is manageable, it will challenge you and help you build a stro
 IRC is a simple yet powerful protocol designed for online communities. 
 Think of it as an early version of modern chat platforms like Discord or Slack, but with a key difference: IRC is open-source. 
 Anyone can create a server or build a client, allowing full control over the chat environment without relying on third-party services.
+
+- custom settings;
+- service stations.
+
+<img src="https://github.com/markveligod/ft_irc/blob/main/img/network.svg">
 
 ## Understanding the Project Scope
 
@@ -100,6 +110,28 @@ Below is a diagram illustrating how I structured the project, with a focus on ob
 
 ``Some of these settings are defined at creation, while others can be modified later using the MODE command. Understanding how these controls work will help you design a fully functional and flexible IRC server.``
 
+## 👥Clients
+
+``In the context of the server, a "Client" is not just the user operating an IRC client like HexChat or irssi. Instead, it represents a connection to the server, abstracted into a class that manages each user's state and interactions within the IRC network.``
+
+## Responsibilities of the Client Class
+
+## ✔️User Identity Management 
+    – Stores user details such as nickname, username, hostname, real name, and file descriptor (FD).
+
+## ✔️Authentication Tracking 
+    – Monitors and enforces the user’s authentication state (e.g., unauthenticated, authenticated, registered).
+    
+## ✔️Channel Management 
+    – Keeps track of which channels the user has joined.
+
+## ✔️Message Handling
+    – Processes incoming and outgoing messages, ensuring correct formatting and delivery to users or channels.
+
+## ✔️Server Interaction 
+    – Helps facilitate smooth communication by enforcing rules and maintaining a proper user state.
+
+``The client class is not just a passive data structure—it actively ensures communication flows correctly and maintains a seamless user experience on the IRC server.``
 
 ## Responding to Messages
 
@@ -108,4 +140,21 @@ Instead of relying on the outdated RFC1459, RFC2812, or RFC7194 specifications, 
 While the older RFCs are still functional, they may cause unnecessary complications when interpreting messages from modern clients.
 To better understand real-world message handling, try connecting to Libera Chat—one of the most popular public IRC networks—using netcat. Observing how it operates in practice can be more insightful than strictly following 
 the RFC documentation. This approach allows you to replicate real client behavior and streamline your implementation.
+
+## 🏷️ RFC documentation
+
+*It is highly recomended to use 281x versions of RFCs*
+
+[RFC 1459](https://tools.ietf.org/html/rfc1459)  
+[RFC 2810](https://tools.ietf.org/html/rfc2810)  
+[RFC 2811](https://tools.ietf.org/html/rfc2811)  
+[RFC 2812](https://tools.ietf.org/html/rfc2812)  
+[RFC 2813](https://tools.ietf.org/html/rfc2813)  
+[RFC 7194](https://tools.ietf.org/html/rfc7194) 
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=timeGradient&height=30&section=footer" width="100%"/>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2373B7F7&center=true&vCenter=true&lines=Thanks+for+your+Time+🤗)](https://git.io/typing-svg)
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=timeGradient&height=30&section=footer" width="100%"/>
 
