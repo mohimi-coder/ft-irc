@@ -1,6 +1,6 @@
 # ft-irc
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=180&text=Hi,%20welcome%20to%20our%20cub3D!&fontSize=24&fontAlignY=32&animation=twinkling" alt="header" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=180&text=Hi,%20welcome%20to%20our%20FT-IRC!&fontSize=24&fontAlignY=32&animation=twinkling" alt="header" width="100%" />
 <samp>
 
 This project is designed to provide an in-depth study of socket operations and their interactions, demonstrated through an IRC chat server. 
