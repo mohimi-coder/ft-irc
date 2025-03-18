@@ -68,7 +68,37 @@ Below is a diagram illustrating how I structured the project, with a focus on ob
 ## ❸ REGISTERED 
     – The client is fully verified and can access all permitted commands.
 
+![irc-command-flow](https://github.com/user-attachments/assets/50162d29-5cd4-43e0-8223-2251c1523d1a)
 
+
+## 📡Channels
+
+    Channels are the core of group communication on an IRC server—virtual spaces where clients can gather, chat, and interact in real time. 
+    Each channel has its own rules, members, and settings, making it a structured environment for conversations.
+
+## 🔑Key Features of Channels
+
+    * Identification – Each channel has a unique name (e.g., #general).
+
+    * Attributes – Channels can have a topic, operator list, user limits, and even password protection.
+
+    * Membership Management – Tracks users in the channel and enforces rules.
+
+    * Operator Privileges – Operators can kick/ban users, set topics, and modify settings.
+
+    * Message Broadcasting – Ensures messages sent in a channel are delivered to all members.
+
+## 📈Access Control
+
+## Channels can be:
+
+    *Public – Open to all users.
+
+    *Invite-only – Requires an invite to join.
+
+    *Password-Protected – Requires a password for access.
+
+``Some of these settings are defined at creation, while others can be modified later using the MODE command. Understanding how these controls work will help you design a fully functional and flexible IRC server.``
 
 
 ## Responding to Messages
