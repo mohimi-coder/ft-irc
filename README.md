@@ -20,6 +20,42 @@ IRC is a simple yet powerful protocol designed for online communities.
 Think of it as an early version of modern chat platforms like Discord or Slack, but with a key difference: IRC is open-source. 
 Anyone can create a server or build a client, allowing full control over the chat environment without relying on third-party services.
 
+## Understanding the Project Scope
+
+This project can be broken down into four fundamental pillars:
+
+## The Server 
+    – Manages client connections and overall network communication.
+## The Command Parser 
+    – Interprets and processes user commands.
+## The Channels 
+    – Handles group communication and message routing.
+## The Client 
+    – Represents a connection to the server (not the actual IRC client used to connect).
+    
+Each component plays a vital role in building a functional IRC server, enabling clients to connect, communicate, and interact in real time.
+
+Below is a diagram illustrating how I structured the project, with a focus on object-oriented programming (OOP):
+
+![irc-global-overview](https://github.com/user-attachments/assets/e8937157-47e6-45af-9019-6d972b01c232)
+
+
+## 🌐The Server
+    The server is the core of the IRC system, responsible for managing socket connections and maintaining key variables like the server password. It facilitates real-time communication between clients and the IRC network through efficient socket management.
+
+## 🤔How It Works
+
+    1️⃣ Creating & Binding a Listening Socket – The server initializes a socket and binds it to a specific port to listen for incoming client connections.
+    
+    2️⃣ Accepting Connections – When a client requests to connect, the server accepts the connection and assigns it a new socket for communication.
+    
+    3️⃣Handling Multiple Clients – Each connected client is managed using separate sockets, enabling multiple users to interact with the server simultaneously.
+    
+This structure ensures smooth and concurrent communication between users within the IRC network.
+
+
+
+
 
 
 ## Responding to Messages
