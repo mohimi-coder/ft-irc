@@ -158,6 +158,10 @@ the RFC documentation. This approach allows you to replicate real client behavio
 
 [Implementing an IRC Server](https://se.inf.ethz.ch/student_projects/fabian_gremper/Report.pdf) 
 
+[IRC SERVER Documentation](https://irc.dalexhd.dev/) 
+
+
+
 
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=timeGradient&height=30&section=footer" width="100%"/>
