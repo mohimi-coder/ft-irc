@@ -151,7 +151,10 @@ the RFC documentation. This approach allows you to replicate real client behavio
 [RFC 2812](https://tools.ietf.org/html/rfc2812)  
 [RFC 2813](https://tools.ietf.org/html/rfc2813)  
 [RFC 7194](https://tools.ietf.org/html/rfc7194) 
-[GUIDE](https://beej.us/guide/bgnet/html/split/) 
+
+[IRC_DOCS](https://modern.ircdocs.horse) 
+
+[GUIDE](https://beej.us/guide/bgnet/html/split) 
 
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=timeGradient&height=30&section=footer" width="100%"/>
