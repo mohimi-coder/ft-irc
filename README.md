@@ -160,8 +160,7 @@ the RFC documentation. This approach allows you to replicate real client behavio
 
 [IRC SERVER Documentation](https://irc.dalexhd.dev/) 
 
-
-
+[Internet Relay Chat](https://chi.cs.uchicago.edu/chirc/irc.html)
 
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=timeGradient&height=30&section=footer" width="100%"/>
