@@ -154,7 +154,10 @@ the RFC documentation. This approach allows you to replicate real client behavio
 
 [IRC_DOCS](https://modern.ircdocs.horse) 
 
-[GUIDE](https://beej.us/guide/bgnet/html/split) 
+[GUIDE_IRC](https://beej.us/guide/bgnet/html/split) 
+
+[Implementing an IRC Server](https://se.inf.ethz.ch/student_projects/fabian_gremper/Report.pdf) 
+
 
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=timeGradient&height=30&section=footer" width="100%"/>
